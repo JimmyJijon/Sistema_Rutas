@@ -1,0 +1,30 @@
+name: sis_rutas
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Para el mapa
+  google_maps_flutter: ^2.5.3 
+  # Para obtener la ubicación del GPS
+  geolocator: ^10.1.0 
+  # Para la base de datos local
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  # Para manejar el estado (Arquitectura MVVM)
+  provider: ^6.1.1
+  # Para dar un formato bonito a la fecha y hora
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
